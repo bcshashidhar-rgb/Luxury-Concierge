@@ -28,8 +28,24 @@ export const userService = {
   },
   async getCircleContacts(): Promise<CircleContact[]> {
     return [
-      { id: 'c1', name: 'Nora Vance', role: 'Lead Concierge', availability: 'Available now' },
-      { id: 'c2', name: 'Hugo Lin', role: 'Lifestyle Planner', availability: 'Online in 20 min' }
+      {
+        id: 'c1',
+        name: 'Nora Vance',
+        role: 'Lead Concierge',
+        availability: 'Available now',
+        imageUrl:
+          'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=600&q=80',
+        imageAlt: 'Lead concierge in a luxury hotel lobby'
+      },
+      {
+        id: 'c2',
+        name: 'Hugo Lin',
+        role: 'Lifestyle Planner',
+        availability: 'Online in 20 min',
+        imageUrl:
+          'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=600',
+        imageAlt: 'Lifestyle planner with tablet in hotel lounge'
+      }
     ];
   }
 };
