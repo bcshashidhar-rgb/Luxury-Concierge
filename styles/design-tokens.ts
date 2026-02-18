@@ -18,7 +18,8 @@ export const designTokens = {
     section: '2.5rem'
   },
   typography: {
-    fontFamily: "'Inter', 'Avenir Next', sans-serif",
+    fontFamily: "'Avenir Next', 'Inter', 'Segoe UI', sans-serif",
+    headingFamily: "'Didot', 'Bodoni MT', 'Times New Roman', serif",
     letterSpacingTight: '0.01em',
     letterSpacingWide: '0.08em',
     sizes: {
