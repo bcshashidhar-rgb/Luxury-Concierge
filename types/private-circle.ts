@@ -4,6 +4,8 @@ export type JourneyItem = {
   date: string;
   location: string;
   status: 'Upcoming' | 'Completed';
+  imageUrl: string;
+  imageAlt: string;
 };
 
 export type TravelDNA = {
@@ -23,6 +25,8 @@ export type CircleContact = {
   name: string;
   role: string;
   availability: string;
+  imageUrl: string;
+  imageAlt: string;
 };
 
 export type AIRecommendation = {
