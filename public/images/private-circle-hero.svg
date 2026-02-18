@@ -1,0 +1,21 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#090A0E"/>
+  <g opacity="0.9">
+    <ellipse cx="1200" cy="120" rx="540" ry="360" fill="url(#paint0_radial)"/>
+    <ellipse cx="260" cy="700" rx="520" ry="300" fill="url(#paint1_radial)"/>
+  </g>
+  <path d="M-50 730C240 610 590 670 820 560C1090 430 1370 300 1660 260" stroke="#C6A96B" stroke-opacity="0.35" stroke-width="2"/>
+  <path d="M-40 790C260 670 560 740 840 620C1120 510 1400 380 1640 340" stroke="#C6A96B" stroke-opacity="0.2" stroke-width="1.5"/>
+  <circle cx="1340" cy="240" r="170" stroke="#C6A96B" stroke-opacity="0.3"/>
+  <circle cx="1340" cy="240" r="220" stroke="#C6A96B" stroke-opacity="0.2"/>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1200 120) rotate(90) scale(360 540)">
+      <stop stop-color="#C6A96B" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#C6A96B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(260 700) rotate(90) scale(300 520)">
+      <stop stop-color="#2A3A54" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#2A3A54" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
